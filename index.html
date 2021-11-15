@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> Contato</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<body>
+			<h1>Contato Online: Rômulo Belo, manutenção e reparos residenciais.</h1>
+			
+			<form method="GET" name="form_cliente" action="sucesso.html">
+			
+			<table class="contact-form">
+				<tr>
+					<td>Nome:*</td>
+					<td><input type+"text" required name="txtnome"></td>
+					<td rowspan="6"> <img src="homem.png" /></td>
+				</tr>
+				<tr>
+					<td>Email:*</td>
+					<td><input type+"text" required name="txtEmail"></td>
+				</tr>
+				<tr>
+					<td>Estado:</td>
+					<td>
+					<select name="list_Estado">
+						<option value="Nenhuma">Selecione um estado</option>
+						<option value="DF">Distrito Federal</option>
+						<option value="RJ">Rio de Janeiro</option>
+						<option value="ES">Espirito Santo</option>
+						<option value="SP">São Paulo</option>
+						<option value="MA">Maranhão</option>
+					<select>
+					</tr>
+				</tr>
+					<tr>
+					<td>Área de Interesse:</td>
+					<td><input type="checkbox" name="interesse" value="Limpeza Geral">Limpeza Geral
+					<input type="checkbox" name="interesse" value="Reparo Residencial">Reparo Residencial
+					<input type="checkbox" name="interesse" value="Construção Residencial">Construção Residencial
+					<input type="checkbox" name="interesse" value="Eletricista Residencial">Eletricista Residencial
+					<td>
+				</tr>
+				<tr>
+					<td>Motivo Contado:</td>
+					<td><textarea name="txtdescricao" cols="30" rows="4"> </textarea></td>
+					
+				</tr>
+				</table>
+					<input type="submit" class="btn" name="Btenviar" value="Enviar">
+					<input type="reset" class="btn" name="Btenviar" value="Limpar">
+				</form>
+				
+			<body>
+		</head>
+	</html>
+					
+					
